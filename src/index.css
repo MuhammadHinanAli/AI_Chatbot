@@ -1,0 +1,88 @@
+/* Reset body styles and set default font and background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  /* Light gray background */
+  color: #333;
+  /* Dark text color */
+}
+
+/* Container for the entire app */
+.app-container {
+  max-width: 700px;
+  /* Max width for responsiveness */
+  margin: 50px auto;
+  /* Center the container vertically and horizontally */
+  padding: 30px;
+  background: white;
+  /* White card background */
+  border-radius: 16px;
+  /* Rounded corners */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+  text-align: center;
+}
+
+/* Title style */
+.title {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  color: #4a90e2;
+  /* Blue color for the heading */
+}
+
+/* Textarea input styling */
+.input-box {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  resize: none;
+  /* Disable manual resizing */
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.generate-button {
+  padding: 12px 25px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  /* Smooth background color transition on hover */
+}
+
+/* Button hover effect */
+.generate-button:hover {
+  background-color: #357ab7;
+  /* Darker blue on hover */
+}
+
+/* Answer output container */
+.output {
+  margin-top: 30px;
+  text-align: left;
+  background: #f0f4f8;
+  padding: 20px;
+  border-radius: 12px;
+  white-space: pre-wrap;
+  /* Preserve line breaks and wrap long text */
+  word-wrap: break-word;
+  /* Break long words to prevent overflow */
+  overflow-y: auto;
+  /* Scroll if content exceeds max height */
+  max-height: 300px;
+  /* Limit height of output area */
+  box-sizing: border-box;
+}
+
+/* Answer title */
+.output h2 {
+  margin-top: 0;
+  color: #333;
+}
